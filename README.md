@@ -149,7 +149,7 @@ num = 42
 In the blinka, follows the pattern (chip, port). To use this codification, we just need to sum `8*X2 + X3`, and use as the second parameter. For instance, port 42 is instantiated as `pin = Pin((1,10))`
 
 ```
-pin = Pin((1,10))  # (x,y) = 32*x + 10*y  -> 1*32 + 10 = 42 (GPIO 42)
+pin = Pin((1,10))  # (x,y) = 32*x +y  -> 1*32 + 10 = 42 (GPIO 42)
 led = digitalio.DigitalInOut(pin)
 led.direction = digitalio.Direction.OUTPUT
 ```
