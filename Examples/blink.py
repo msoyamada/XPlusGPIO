@@ -8,7 +8,7 @@ import board
 import digitalio
 from adafruit_blinka.microcontroller.generic_linux.libgpiod_pin import Pin
 
-pin = Pin((1,10))  # (x,y) = 32*x + 10*y  -> 1*32 + 10 = 42 (GPIO 42)
+pin = Pin((1,10))  # (x,y) = 32*x + y  -> 1*32 + 10 = 42 (GPIO 42)
 
 print("hello blinky!")
 
