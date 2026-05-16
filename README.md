@@ -200,7 +200,7 @@ Edit the file rk3222x-box.dts  and enable I2C_0, changing disable for ok in the 
 
 generate the new DTB dtb/rk322x-box.dtb  
 
-`dtc -I dts -O dtb rk322x-box.dts -o dtb/myrk3222x-box.dtb`
+`dtc -I dts -O dtb rk322x-box.dts -o dtb/myrk322x-box.dtb`
 
 edit the file  /boot/armbianEnv.txt, field fdtfile
 
